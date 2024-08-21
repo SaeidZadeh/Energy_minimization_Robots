@@ -1,0 +1,4369 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <world name="default">
+    <!-- Define the ground plane (mesh) -->
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>20 20</size>
+            </plane>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>20 20</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/White</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="exploration_marker_1">
+      <static>true</static>
+      <link name="link">
+        <pose>-8.5 -9.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_2">
+      <static>true</static>
+      <link name="link">
+        <pose>-7.5 -9.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_3">
+      <static>true</static>
+      <link name="link">
+        <pose>-6.5 -9.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_4">
+      <static>true</static>
+      <link name="link">
+        <pose>-5.5 -9.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_5">
+      <static>true</static>
+      <link name="link">
+        <pose>1.5 -9.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_6">
+      <static>true</static>
+      <link name="link">
+        <pose>2.5 -9.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_7">
+      <static>true</static>
+      <link name="link">
+        <pose>3.5 -9.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_8">
+      <static>true</static>
+      <link name="link">
+        <pose>6.5 -9.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_9">
+      <static>true</static>
+      <link name="link">
+        <pose>7.5 -9.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_10">
+      <static>true</static>
+      <link name="link">
+        <pose>-7.5 -8.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_11">
+      <static>true</static>
+      <link name="link">
+        <pose>-6.5 -8.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_12">
+      <static>true</static>
+      <link name="link">
+        <pose>-5.5 -8.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_13">
+      <static>true</static>
+      <link name="link">
+        <pose>-3.5 -8.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_14">
+      <static>true</static>
+      <link name="link">
+        <pose>-0.5 -8.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_15">
+      <static>true</static>
+      <link name="link">
+        <pose>2.5 -8.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_16">
+      <static>true</static>
+      <link name="link">
+        <pose>6.5 -8.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_17">
+      <static>true</static>
+      <link name="link">
+        <pose>8.5 -8.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_18">
+      <static>true</static>
+      <link name="link">
+        <pose>9.5 -8.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_19">
+      <static>true</static>
+      <link name="link">
+        <pose>-8.5 -7.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_20">
+      <static>true</static>
+      <link name="link">
+        <pose>-4.5 -7.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_21">
+      <static>true</static>
+      <link name="link">
+        <pose>-1.5 -7.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_22">
+      <static>true</static>
+      <link name="link">
+        <pose>2.5 -7.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_23">
+      <static>true</static>
+      <link name="link">
+        <pose>5.5 -7.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_24">
+      <static>true</static>
+      <link name="link">
+        <pose>6.5 -7.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_25">
+      <static>true</static>
+      <link name="link">
+        <pose>7.5 -7.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_26">
+      <static>true</static>
+      <link name="link">
+        <pose>8.5 -7.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_27">
+      <static>true</static>
+      <link name="link">
+        <pose>-2.5 -6.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_28">
+      <static>true</static>
+      <link name="link">
+        <pose>-1.5 -6.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_29">
+      <static>true</static>
+      <link name="link">
+        <pose>-0.5 -6.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_30">
+      <static>true</static>
+      <link name="link">
+        <pose>2.5 -6.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_31">
+      <static>true</static>
+      <link name="link">
+        <pose>4.5 -6.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_32">
+      <static>true</static>
+      <link name="link">
+        <pose>5.5 -6.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_33">
+      <static>true</static>
+      <link name="link">
+        <pose>8.5 -6.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_34">
+      <static>true</static>
+      <link name="link">
+        <pose>-7.5 -5.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_35">
+      <static>true</static>
+      <link name="link">
+        <pose>-5.5 -5.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_36">
+      <static>true</static>
+      <link name="link">
+        <pose>-3.5 -5.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_37">
+      <static>true</static>
+      <link name="link">
+        <pose>-2.5 -5.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_38">
+      <static>true</static>
+      <link name="link">
+        <pose>5.5 -5.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_39">
+      <static>true</static>
+      <link name="link">
+        <pose>-9.5 -4.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_40">
+      <static>true</static>
+      <link name="link">
+        <pose>-3.5 -4.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_41">
+      <static>true</static>
+      <link name="link">
+        <pose>-2.5 -4.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_42">
+      <static>true</static>
+      <link name="link">
+        <pose>-0.5 -4.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_43">
+      <static>true</static>
+      <link name="link">
+        <pose>0.5 -4.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_44">
+      <static>true</static>
+      <link name="link">
+        <pose>2.5 -4.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_45">
+      <static>true</static>
+      <link name="link">
+        <pose>3.5 -4.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_46">
+      <static>true</static>
+      <link name="link">
+        <pose>6.5 -4.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_47">
+      <static>true</static>
+      <link name="link">
+        <pose>7.5 -4.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_48">
+      <static>true</static>
+      <link name="link">
+        <pose>8.5 -4.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_49">
+      <static>true</static>
+      <link name="link">
+        <pose>9.5 -4.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_50">
+      <static>true</static>
+      <link name="link">
+        <pose>-7.5 -3.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_51">
+      <static>true</static>
+      <link name="link">
+        <pose>-0.5 -3.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_52">
+      <static>true</static>
+      <link name="link">
+        <pose>4.5 -3.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_53">
+      <static>true</static>
+      <link name="link">
+        <pose>5.5 -3.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_54">
+      <static>true</static>
+      <link name="link">
+        <pose>6.5 -3.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_55">
+      <static>true</static>
+      <link name="link">
+        <pose>8.5 -3.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_56">
+      <static>true</static>
+      <link name="link">
+        <pose>9.5 -3.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_57">
+      <static>true</static>
+      <link name="link">
+        <pose>-9.5 -2.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_58">
+      <static>true</static>
+      <link name="link">
+        <pose>-8.5 -2.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_59">
+      <static>true</static>
+      <link name="link">
+        <pose>-7.5 -2.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_60">
+      <static>true</static>
+      <link name="link">
+        <pose>-6.5 -2.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_61">
+      <static>true</static>
+      <link name="link">
+        <pose>-5.5 -2.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_62">
+      <static>true</static>
+      <link name="link">
+        <pose>-4.5 -2.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_63">
+      <static>true</static>
+      <link name="link">
+        <pose>-3.5 -2.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_64">
+      <static>true</static>
+      <link name="link">
+        <pose>-2.5 -2.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_65">
+      <static>true</static>
+      <link name="link">
+        <pose>-1.5 -2.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_66">
+      <static>true</static>
+      <link name="link">
+        <pose>3.5 -2.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_67">
+      <static>true</static>
+      <link name="link">
+        <pose>5.5 -2.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_68">
+      <static>true</static>
+      <link name="link">
+        <pose>9.5 -2.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_69">
+      <static>true</static>
+      <link name="link">
+        <pose>-8.5 -1.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_70">
+      <static>true</static>
+      <link name="link">
+        <pose>-6.5 -1.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_71">
+      <static>true</static>
+      <link name="link">
+        <pose>-3.5 -1.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_72">
+      <static>true</static>
+      <link name="link">
+        <pose>-2.5 -1.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_73">
+      <static>true</static>
+      <link name="link">
+        <pose>-1.5 -1.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_74">
+      <static>true</static>
+      <link name="link">
+        <pose>-0.5 -1.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_75">
+      <static>true</static>
+      <link name="link">
+        <pose>0.5 -1.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_76">
+      <static>true</static>
+      <link name="link">
+        <pose>1.5 -1.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_77">
+      <static>true</static>
+      <link name="link">
+        <pose>2.5 -1.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_78">
+      <static>true</static>
+      <link name="link">
+        <pose>6.5 -1.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_79">
+      <static>true</static>
+      <link name="link">
+        <pose>8.5 -1.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_80">
+      <static>true</static>
+      <link name="link">
+        <pose>9.5 -1.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_81">
+      <static>true</static>
+      <link name="link">
+        <pose>-8.5 -0.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_82">
+      <static>true</static>
+      <link name="link">
+        <pose>-7.5 -0.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_83">
+      <static>true</static>
+      <link name="link">
+        <pose>-6.5 -0.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_84">
+      <static>true</static>
+      <link name="link">
+        <pose>-1.5 -0.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_85">
+      <static>true</static>
+      <link name="link">
+        <pose>-0.5 -0.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_86">
+      <static>true</static>
+      <link name="link">
+        <pose>1.5 -0.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_87">
+      <static>true</static>
+      <link name="link">
+        <pose>2.5 -0.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_88">
+      <static>true</static>
+      <link name="link">
+        <pose>4.5 -0.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_89">
+      <static>true</static>
+      <link name="link">
+        <pose>6.5 -0.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_90">
+      <static>true</static>
+      <link name="link">
+        <pose>7.5 -0.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_91">
+      <static>true</static>
+      <link name="link">
+        <pose>9.5 -0.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_92">
+      <static>true</static>
+      <link name="link">
+        <pose>-8.5 0.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_93">
+      <static>true</static>
+      <link name="link">
+        <pose>-6.5 0.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_94">
+      <static>true</static>
+      <link name="link">
+        <pose>1.5 0.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_95">
+      <static>true</static>
+      <link name="link">
+        <pose>4.5 0.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_96">
+      <static>true</static>
+      <link name="link">
+        <pose>5.5 0.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_97">
+      <static>true</static>
+      <link name="link">
+        <pose>6.5 0.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_98">
+      <static>true</static>
+      <link name="link">
+        <pose>7.5 0.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_99">
+      <static>true</static>
+      <link name="link">
+        <pose>8.5 0.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_100">
+      <static>true</static>
+      <link name="link">
+        <pose>9.5 0.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_101">
+      <static>true</static>
+      <link name="link">
+        <pose>-8.5 1.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_102">
+      <static>true</static>
+      <link name="link">
+        <pose>-7.5 1.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_103">
+      <static>true</static>
+      <link name="link">
+        <pose>-5.5 1.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_104">
+      <static>true</static>
+      <link name="link">
+        <pose>-4.5 1.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_105">
+      <static>true</static>
+      <link name="link">
+        <pose>-3.5 1.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_106">
+      <static>true</static>
+      <link name="link">
+        <pose>-0.5 1.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_107">
+      <static>true</static>
+      <link name="link">
+        <pose>0.5 1.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_108">
+      <static>true</static>
+      <link name="link">
+        <pose>2.5 1.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_109">
+      <static>true</static>
+      <link name="link">
+        <pose>5.5 1.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_110">
+      <static>true</static>
+      <link name="link">
+        <pose>6.5 1.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_111">
+      <static>true</static>
+      <link name="link">
+        <pose>7.5 1.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_112">
+      <static>true</static>
+      <link name="link">
+        <pose>8.5 1.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_113">
+      <static>true</static>
+      <link name="link">
+        <pose>9.5 1.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_114">
+      <static>true</static>
+      <link name="link">
+        <pose>-9.5 2.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_115">
+      <static>true</static>
+      <link name="link">
+        <pose>-8.5 2.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_116">
+      <static>true</static>
+      <link name="link">
+        <pose>-7.5 2.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_117">
+      <static>true</static>
+      <link name="link">
+        <pose>2.5 2.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_118">
+      <static>true</static>
+      <link name="link">
+        <pose>5.5 2.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_119">
+      <static>true</static>
+      <link name="link">
+        <pose>7.5 2.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_120">
+      <static>true</static>
+      <link name="link">
+        <pose>-9.5 3.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_121">
+      <static>true</static>
+      <link name="link">
+        <pose>-8.5 3.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_122">
+      <static>true</static>
+      <link name="link">
+        <pose>-6.5 3.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_123">
+      <static>true</static>
+      <link name="link">
+        <pose>-0.5 3.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_124">
+      <static>true</static>
+      <link name="link">
+        <pose>4.5 3.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_125">
+      <static>true</static>
+      <link name="link">
+        <pose>5.5 3.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_126">
+      <static>true</static>
+      <link name="link">
+        <pose>6.5 3.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_127">
+      <static>true</static>
+      <link name="link">
+        <pose>7.5 3.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_128">
+      <static>true</static>
+      <link name="link">
+        <pose>-8.5 4.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_129">
+      <static>true</static>
+      <link name="link">
+        <pose>-4.5 4.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_130">
+      <static>true</static>
+      <link name="link">
+        <pose>-3.5 4.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_131">
+      <static>true</static>
+      <link name="link">
+        <pose>-1.5 4.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_132">
+      <static>true</static>
+      <link name="link">
+        <pose>0.5 4.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_133">
+      <static>true</static>
+      <link name="link">
+        <pose>2.5 4.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_134">
+      <static>true</static>
+      <link name="link">
+        <pose>4.5 4.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_135">
+      <static>true</static>
+      <link name="link">
+        <pose>5.5 4.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_136">
+      <static>true</static>
+      <link name="link">
+        <pose>6.5 4.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_137">
+      <static>true</static>
+      <link name="link">
+        <pose>9.5 4.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_138">
+      <static>true</static>
+      <link name="link">
+        <pose>-9.5 5.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_139">
+      <static>true</static>
+      <link name="link">
+        <pose>-8.5 5.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_140">
+      <static>true</static>
+      <link name="link">
+        <pose>-7.5 5.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_141">
+      <static>true</static>
+      <link name="link">
+        <pose>-6.5 5.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_142">
+      <static>true</static>
+      <link name="link">
+        <pose>-3.5 5.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_143">
+      <static>true</static>
+      <link name="link">
+        <pose>-2.5 5.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_144">
+      <static>true</static>
+      <link name="link">
+        <pose>-0.5 5.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_145">
+      <static>true</static>
+      <link name="link">
+        <pose>1.5 5.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_146">
+      <static>true</static>
+      <link name="link">
+        <pose>2.5 5.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_147">
+      <static>true</static>
+      <link name="link">
+        <pose>4.5 5.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_148">
+      <static>true</static>
+      <link name="link">
+        <pose>5.5 5.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_149">
+      <static>true</static>
+      <link name="link">
+        <pose>7.5 5.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_150">
+      <static>true</static>
+      <link name="link">
+        <pose>8.5 5.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_151">
+      <static>true</static>
+      <link name="link">
+        <pose>-9.5 6.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_152">
+      <static>true</static>
+      <link name="link">
+        <pose>-6.5 6.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_153">
+      <static>true</static>
+      <link name="link">
+        <pose>-5.5 6.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_154">
+      <static>true</static>
+      <link name="link">
+        <pose>-3.5 6.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_155">
+      <static>true</static>
+      <link name="link">
+        <pose>-0.5 6.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_156">
+      <static>true</static>
+      <link name="link">
+        <pose>3.5 6.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_157">
+      <static>true</static>
+      <link name="link">
+        <pose>6.5 6.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_158">
+      <static>true</static>
+      <link name="link">
+        <pose>7.5 6.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_159">
+      <static>true</static>
+      <link name="link">
+        <pose>8.5 6.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_160">
+      <static>true</static>
+      <link name="link">
+        <pose>-9.5 7.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_161">
+      <static>true</static>
+      <link name="link">
+        <pose>-8.5 7.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_162">
+      <static>true</static>
+      <link name="link">
+        <pose>-7.5 7.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_163">
+      <static>true</static>
+      <link name="link">
+        <pose>-6.5 7.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_164">
+      <static>true</static>
+      <link name="link">
+        <pose>-5.5 7.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_165">
+      <static>true</static>
+      <link name="link">
+        <pose>-4.5 7.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_166">
+      <static>true</static>
+      <link name="link">
+        <pose>-3.5 7.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_167">
+      <static>true</static>
+      <link name="link">
+        <pose>-2.5 7.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_168">
+      <static>true</static>
+      <link name="link">
+        <pose>-0.5 7.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_169">
+      <static>true</static>
+      <link name="link">
+        <pose>2.5 7.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_170">
+      <static>true</static>
+      <link name="link">
+        <pose>4.5 7.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_171">
+      <static>true</static>
+      <link name="link">
+        <pose>5.5 7.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_172">
+      <static>true</static>
+      <link name="link">
+        <pose>6.5 7.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_173">
+      <static>true</static>
+      <link name="link">
+        <pose>9.5 7.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_174">
+      <static>true</static>
+      <link name="link">
+        <pose>-9.5 8.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_175">
+      <static>true</static>
+      <link name="link">
+        <pose>-8.5 8.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_176">
+      <static>true</static>
+      <link name="link">
+        <pose>-7.5 8.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_177">
+      <static>true</static>
+      <link name="link">
+        <pose>-4.5 8.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_178">
+      <static>true</static>
+      <link name="link">
+        <pose>-3.5 8.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_179">
+      <static>true</static>
+      <link name="link">
+        <pose>-0.5 8.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_180">
+      <static>true</static>
+      <link name="link">
+        <pose>2.5 8.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_181">
+      <static>true</static>
+      <link name="link">
+        <pose>3.5 8.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_182">
+      <static>true</static>
+      <link name="link">
+        <pose>6.5 8.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_183">
+      <static>true</static>
+      <link name="link">
+        <pose>7.5 8.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_184">
+      <static>true</static>
+      <link name="link">
+        <pose>8.5 8.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_185">
+      <static>true</static>
+      <link name="link">
+        <pose>-7.5 9.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_186">
+      <static>true</static>
+      <link name="link">
+        <pose>-6.5 9.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_187">
+      <static>true</static>
+      <link name="link">
+        <pose>-5.5 9.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_188">
+      <static>true</static>
+      <link name="link">
+        <pose>-4.5 9.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_189">
+      <static>true</static>
+      <link name="link">
+        <pose>-3.5 9.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_190">
+      <static>true</static>
+      <link name="link">
+        <pose>-2.5 9.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_191">
+      <static>true</static>
+      <link name="link">
+        <pose>-0.5 9.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_192">
+      <static>true</static>
+      <link name="link">
+        <pose>3.5 9.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_193">
+      <static>true</static>
+      <link name="link">
+        <pose>4.5 9.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_194">
+      <static>true</static>
+      <link name="link">
+        <pose>5.5 9.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_195">
+      <static>true</static>
+      <link name="link">
+        <pose>7.5 9.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_196">
+      <static>true</static>
+      <link name="link">
+        <pose>8.5 9.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+
+    <model name="exploration_marker_197">
+      <static>true</static>
+      <link name="link">
+        <pose>9.5 9.5 0.01 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>1 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://my_ground_plane/materials/textures/MyImage.jpg</uri>
+              <uri>model://my_ground_plane/materials/scripts/my_ground_plane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+     </model>
+     
+  </world>
+</sdf>
+
