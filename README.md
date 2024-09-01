@@ -8,13 +8,13 @@ The waypoints determined and then used by the robots to explore the map. We used
 to reproduction of the result (ubuntu 22.04 with gazebo and ros2 installed):
 
 - open Terminal 1 run the following:
-> source /opt/ros/humble/setup.bash
-> cd ros2_ws
-> colcon build
-> source install/setup.bash
-> ros2 launch box_bot_gazebo multi_box_bot_launch.py
-
+$ source /opt/ros/humble/setup.bash
+$ cd ros2_ws
+$ colcon build
+$ source install/setup.bash
+$ ros2 launch box_bot_gazebo multi_box_bot_launch.py
+ 
 - open Terminal 2 run the following:
-> source /opt/ros/humble/setup.bash
-> cd /ros2_ws/src/box_bot/box_bot_gazebo/launch
-> python3 robots_controller.py
+$ source /opt/ros/humble/setup.bash
+$ cd /ros2_ws/src/box_bot/box_bot_gazebo/launch
+$ python3 robots_controller.py
