@@ -46,9 +46,9 @@
           <type sid="type" type="int">0</type>
           <flag sid="flag" type="int">0</flag>
           <mode sid="mode" type="int">2097153</mode>
-          <red sid="red" type="float">1</red>
-          <green sid="green" type="float">1</green>
-          <blue sid="blue" type="float">1</blue>
+          <red sid="red" type="float">0.5</red>
+          <green sid="green" type="float">0.5</green>
+          <blue sid="blue" type="float">0.5</blue>
           <shadow_r sid="blender_shadow_r" type="float">0</shadow_r>
           <shadow_g sid="blender_shadow_g" type="float">0</shadow_g>
           <shadow_b sid="blender_shadow_b" type="float">0</shadow_b>

@@ -1,0 +1,148 @@
+[0.006s] Invoking command in '/home/saeid/ros2_ws/build/box_bot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/saeid/ros2_ws/src/box_bot/box_bot_gazebo -DCMAKE_INSTALL_PREFIX=/home/saeid/ros2_ws/install/box_bot_gazebo
+[0.069s] -- The C compiler identification is GNU 11.4.0
+[0.129s] -- The CXX compiler identification is GNU 11.4.0
+[0.135s] -- Detecting C compiler ABI info
+[0.186s] -- Detecting C compiler ABI info - done
+[0.191s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.191s] -- Detecting C compile features
+[0.192s] -- Detecting C compile features - done
+[0.194s] -- Detecting CXX compiler ABI info
+[0.248s] -- Detecting CXX compiler ABI info - done
+[0.257s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.257s] -- Detecting CXX compile features
+[0.257s] -- Detecting CXX compile features - done
+[0.258s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.532s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.590s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.616s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.619s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.624s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.631s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.641s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.668s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.670s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.683s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.689s] -- Looking for pthread.h
+[0.749s] -- Looking for pthread.h - found
+[0.749s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.800s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.801s] -- Found Threads: TRUE  
+[0.835s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.839s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.839s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.839s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.839s]   problems in calling code that expects `find_package` result variables
+[0.839s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.839s] Call Stack (most recent call first):
+[0.839s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.840s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.840s]   CMakeLists.txt:26 (find_package)
+[0.840s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.840s] [0m
+[0.840s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.840s] -- Checking for module 'bullet>=2.82'
+[0.850s] --   Found bullet, version 3.05
+[0.925s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[0.963s] -- Found assimp: /usr/include (found version "5.2.0") 
+[0.976s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.995s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.004s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.007s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.012s] -- Searching for dependencies of ignition-math6
+[1.013s] -- Looking for OGRE...
+[1.013s] -- OGRE_PREFIX_WATCH changed.
+[1.016s] -- Checking for module 'OGRE'
+[1.026s] --   Found OGRE, version 1.9.0
+[1.050s] -- Found Ogre Ghadamon (1.9.0)
+[1.057s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.064s] -- Looking for OGRE_Paging...
+[1.068s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.068s] -- Looking for OGRE_Terrain...
+[1.071s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.071s] -- Looking for OGRE_Property...
+[1.074s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.074s] -- Looking for OGRE_RTShaderSystem...
+[1.077s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.077s] -- Looking for OGRE_Volume...
+[1.080s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.080s] -- Looking for OGRE_Overlay...
+[1.084s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.151s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.153s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.153s] -- Searching for dependencies of ignition-transport8
+[1.165s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.172s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.176s] -- Checking for module 'libzmq >= 4'
+[1.186s] --   Found libzmq , version 4.3.4
+[1.212s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.217s] -- Checking for module 'uuid'
+[1.227s] --   Found uuid, version 2.37.2
+[1.250s] -- Found UUID: TRUE  
+[1.252s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.252s] -- Searching for dependencies of ignition-msgs5
+[1.265s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.269s] -- Checking for module 'tinyxml2'
+[1.278s] --   Found tinyxml2, version 9.0.0
+[1.307s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.309s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.309s] -- Searching for dependencies of ignition-common3
+[1.309s] -- Looking for dlfcn.h - found
+[1.310s] -- Looking for libdl - found
+[1.311s] -- Found DL: TRUE  
+[1.319s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.319s] -- Searching for <ignition-common3> component [graphics]
+[1.320s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.321s] -- Searching for dependencies of ignition-common3-graphics
+[1.321s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.323s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.323s] -- Searching for dependencies of ignition-fuel_tools4
+[1.378s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.384s] -- Checking for module 'jsoncpp'
+[1.394s] --   Found jsoncpp, version 1.9.5
+[1.419s] -- Found JSONCPP: TRUE  
+[1.424s] -- Checking for module 'libzip'
+[1.434s] --   Found libzip, version 1.7.3
+[1.461s] -- Found ZIP: TRUE  
+[1.461s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.461s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.462s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.465s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.520s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.521s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.522s] -- Added test 'lint_cmake' to check CMake code style
+[1.522s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.522s] -- Added test 'xmllint' to check XML markup files
+[1.523s] -- Configuring done
+[1.526s] -- Generating done
+[1.527s] -- Build files have been written to: /home/saeid/ros2_ws/build/box_bot_gazebo
+[1.535s] Invoked command in '/home/saeid/ros2_ws/build/box_bot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/saeid/ros2_ws/src/box_bot/box_bot_gazebo -DCMAKE_INSTALL_PREFIX=/home/saeid/ros2_ws/install/box_bot_gazebo
+[1.536s] Invoking command in '/home/saeid/ros2_ws/build/box_bot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saeid/ros2_ws/build/box_bot_gazebo -- -j16 -l16
+[1.565s] Invoked command in '/home/saeid/ros2_ws/build/box_bot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saeid/ros2_ws/build/box_bot_gazebo -- -j16 -l16
+[1.583s] Invoking command in '/home/saeid/ros2_ws/build/box_bot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/saeid/ros2_ws/build/box_bot_gazebo
+[1.587s] -- Install configuration: ""
+[1.587s] -- Installing: /home/saeid/ros2_ws/install/box_bot_gazebo/share/box_bot_gazebo//launch
+[1.587s] -- Installing: /home/saeid/ros2_ws/install/box_bot_gazebo/share/box_bot_gazebo//launch/box_bot_launch.py
+[1.587s] -- Installing: /home/saeid/ros2_ws/install/box_bot_gazebo/share/box_bot_gazebo//launch/start_world_launch.py
+[1.587s] -- Installing: /home/saeid/ros2_ws/install/box_bot_gazebo/share/box_bot_gazebo//launch/multi_box_bot_launch.py
+[1.588s] -- Installing: /home/saeid/ros2_ws/install/box_bot_gazebo/share/box_bot_gazebo//launch/.vscode
+[1.588s] -- Installing: /home/saeid/ros2_ws/install/box_bot_gazebo/share/box_bot_gazebo//launch/.vscode/settings.json
+[1.588s] -- Installing: /home/saeid/ros2_ws/install/box_bot_gazebo/share/box_bot_gazebo//launch/.vscode/c_cpp_properties.json
+[1.588s] -- Installing: /home/saeid/ros2_ws/install/box_bot_gazebo/share/box_bot_gazebo//launch/robots_controller.py
+[1.588s] -- Installing: /home/saeid/ros2_ws/install/box_bot_gazebo/share/box_bot_gazebo//worlds
+[1.588s] -- Installing: /home/saeid/ros2_ws/install/box_bot_gazebo/share/box_bot_gazebo//worlds/box_bot_empty.world
+[1.588s] -- Installing: /home/saeid/ros2_ws/install/box_bot_gazebo/share/ament_index/resource_index/package_run_dependencies/box_bot_gazebo
+[1.588s] -- Installing: /home/saeid/ros2_ws/install/box_bot_gazebo/share/ament_index/resource_index/parent_prefix_path/box_bot_gazebo
+[1.588s] -- Installing: /home/saeid/ros2_ws/install/box_bot_gazebo/share/box_bot_gazebo/environment/ament_prefix_path.sh
+[1.588s] -- Installing: /home/saeid/ros2_ws/install/box_bot_gazebo/share/box_bot_gazebo/environment/ament_prefix_path.dsv
+[1.589s] -- Installing: /home/saeid/ros2_ws/install/box_bot_gazebo/share/box_bot_gazebo/environment/path.sh
+[1.589s] -- Installing: /home/saeid/ros2_ws/install/box_bot_gazebo/share/box_bot_gazebo/environment/path.dsv
+[1.589s] -- Installing: /home/saeid/ros2_ws/install/box_bot_gazebo/share/box_bot_gazebo/local_setup.bash
+[1.589s] -- Installing: /home/saeid/ros2_ws/install/box_bot_gazebo/share/box_bot_gazebo/local_setup.sh
+[1.589s] -- Installing: /home/saeid/ros2_ws/install/box_bot_gazebo/share/box_bot_gazebo/local_setup.zsh
+[1.589s] -- Installing: /home/saeid/ros2_ws/install/box_bot_gazebo/share/box_bot_gazebo/local_setup.dsv
+[1.589s] -- Installing: /home/saeid/ros2_ws/install/box_bot_gazebo/share/box_bot_gazebo/package.dsv
+[1.589s] -- Installing: /home/saeid/ros2_ws/install/box_bot_gazebo/share/ament_index/resource_index/packages/box_bot_gazebo
+[1.589s] -- Installing: /home/saeid/ros2_ws/install/box_bot_gazebo/share/box_bot_gazebo/cmake/box_bot_gazeboConfig.cmake
+[1.589s] -- Installing: /home/saeid/ros2_ws/install/box_bot_gazebo/share/box_bot_gazebo/cmake/box_bot_gazeboConfig-version.cmake
+[1.589s] -- Installing: /home/saeid/ros2_ws/install/box_bot_gazebo/share/box_bot_gazebo/package.xml
+[1.590s] Invoked command in '/home/saeid/ros2_ws/build/box_bot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/saeid/ros2_ws/build/box_bot_gazebo

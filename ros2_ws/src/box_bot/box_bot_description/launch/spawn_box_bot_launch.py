@@ -18,7 +18,7 @@ def generate_launch_description():
                 '-x', launch.substitutions.LaunchConfiguration('x'),
                 '-y', launch.substitutions.LaunchConfiguration('y'),
                 '-z', launch.substitutions.LaunchConfiguration('z'),
-                '--col_name', launch.substitutions.LaunchConfiguration('col_name'),
+                '--color_name', launch.substitutions.LaunchConfiguration('color_name'),
                 '--color', launch.substitutions.LaunchConfiguration('color'),
                 '--mesh_file', launch.substitutions.LaunchConfiguration('mesh_file')
                 ]),

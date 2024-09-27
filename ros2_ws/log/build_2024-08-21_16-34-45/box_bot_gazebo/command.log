@@ -1,0 +1,6 @@
+Invoking command in '/home/saeid/ros2_ws/build/box_bot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/saeid/ros2_ws/src/box_bot/box_bot_gazebo -DCMAKE_INSTALL_PREFIX=/home/saeid/ros2_ws/install/box_bot_gazebo
+Invoked command in '/home/saeid/ros2_ws/build/box_bot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/saeid/ros2_ws/src/box_bot/box_bot_gazebo -DCMAKE_INSTALL_PREFIX=/home/saeid/ros2_ws/install/box_bot_gazebo
+Invoking command in '/home/saeid/ros2_ws/build/box_bot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saeid/ros2_ws/build/box_bot_gazebo -- -j16 -l16
+Invoked command in '/home/saeid/ros2_ws/build/box_bot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saeid/ros2_ws/build/box_bot_gazebo -- -j16 -l16
+Invoking command in '/home/saeid/ros2_ws/build/box_bot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/saeid/ros2_ws/build/box_bot_gazebo
+Invoked command in '/home/saeid/ros2_ws/build/box_bot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/saeid/ros2_ws/build/box_bot_gazebo

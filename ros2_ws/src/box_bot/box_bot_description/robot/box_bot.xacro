@@ -15,7 +15,7 @@
   <xacro:arg name="color" default="0.8980392156862745 0.0 0.0 1.0"/>
   <xacro:arg name="mesh_file" default="package:///box_bot_description/meshes/Robot1.dae"/>
   
-  <xacro:box_bot_body parent_name="${base_name}" col_name="${color_name}" color="${color}"/>
+  <xacro:box_bot_body parent_name="${base_name}" color_name="${color_name}" color="${color}"/>
 
   
   <xacro:link_wheel name="right_wheel" r="${wheel_radius}" l="${wheel_width}" incr="${wheel_increment}"/>

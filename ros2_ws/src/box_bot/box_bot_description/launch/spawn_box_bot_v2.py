@@ -28,7 +28,7 @@ def main():
                         help='the y component of the initial position [meters]')
     parser.add_argument('-z', type=float, default=0,
                         help='the z component of the initial position [meters]')
-    parser.add_argument('--col_name', type=str, default='red',
+    parser.add_argument('--color_name', type=str, default='red',
                         help='Color name for the robot')
     parser.add_argument('--color', type=str, default='0.9 0.0 0.0 1.0',
                         help='RGBA color value for the robot')
@@ -65,8 +65,8 @@ def main():
     root = tree.getroot()
 
     for arg in root.iter('arg'):
-        if arg.attrib['name']=='col_name':
-            arg.attrib['default']== args.col_name
+        if arg.attrib['name']=='color_name':
+            arg.attrib['default']== args.color_name
         if arg.attrib['name'] == 'color_rgba':
             arg.attrib['default'] = args.color
         if arg.attrib['name'] == 'mesh_file':
